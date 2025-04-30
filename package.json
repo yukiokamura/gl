@@ -1,0 +1,29 @@
+{
+  "name": "gl",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "format": "prettier --write \"src/**/*.{js,ts,vue}\""
+  },
+  "dependencies": {
+    "lil-gui": "^0.20.0",
+    "three": "^0.162.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/three": "^0.162.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/tsconfig": "^0.5.1",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3",
+    "vite": "^6.3.3",
+    "vite-plugin-string": "^1.2.3",
+    "vue-tsc": "^2.2.10"
+  }
+}

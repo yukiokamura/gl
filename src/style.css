@@ -1,0 +1,39 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-color);
+    font-optical-sizing: auto;
+    font-family: var(--font-family);
+    font-style: normal;
+    line-height: 1;
+
+    
+}
+
+h1,h2{
+  margin: 0;
+  padding: 0;
+}
+
+#app{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+:root{
+  --bg-color:#343434;
+  --font-family: 'Roboto Condensed', sans-serif;
+  --letter-spacing: 0.05em;
+  --letter-spacing-2x: 0.1em;
+  --margin-base-half:5px;
+  --margin-base:10px;
+  --margin-base-2x:20px;
+  --primary-color:#E5E5E5;
+  --easeing:cubic-bezier(0.25, 0.1, 0.25, 1);
+  --z-index-primary:100;
+}
